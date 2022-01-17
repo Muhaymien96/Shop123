@@ -1,0 +1,42 @@
+#products {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+img {
+  height: 200px !important;
+  object-fit: contain;
+}
+
+.card {
+  width: calc((100% / 4) - 15px);
+  min-width: 300px;
+}
+
+.card-title {
+  text-transform: capitalize;
+}
+.logo{
+  height: 65px !important;
+
+}
+.navbar{
+height: 65px !important;
+background-color: white !important;
+}
+.modal-backdrop{
+  z-index: -1;
+}
+button{
+  background-color: #003049 !important;
+}
+.btn-danger{
+  background-color: #d62828 !important;
+}
+.btn-primary{
+  background-color: #003049 !important;
+}
+#badge{
+  background-color: #d62828 !important;
+}
+
